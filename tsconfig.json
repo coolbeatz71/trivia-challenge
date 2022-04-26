@@ -16,6 +16,7 @@
         "paths": {
             "@lib/*": ["src/lib/*"],
             "@redux/*": ["src/redux/*"],
+            "@types/*": ["src/types/*"],
             "@components/*": ["src/components/*"],
             "@containers/*": ["src/containers/*"],
             "@constants/*": ["src/constants/*"],
