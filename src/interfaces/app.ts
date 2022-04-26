@@ -3,7 +3,7 @@ export interface IUnknownObject {
     [key: string]: any;
 }
 
-export interface IQuestions {
+export interface IResponse {
     response_code: number;
     results?: IResultsEntity[] | null;
 }
@@ -17,4 +17,11 @@ export interface IResultsEntity {
     incorrect_answers?: string[] | null;
 }
 
-export type IResultData = IResultsEntity[] | null | undefined;
+export interface IQuestion {
+    id: number;
+    category: string;
+    questionName: string;
+    correctAnswer: string;
+}
+
+export type IResultData = IQuestion | null | undefined;
