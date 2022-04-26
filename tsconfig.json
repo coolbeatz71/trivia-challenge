@@ -15,6 +15,7 @@
         "jsx": "preserve",
         "paths": {
             "@lib/*": ["src/lib/*"],
+            "@redux/*": ["src/redux/*"],
             "@components/*": ["src/components/*"],
             "@containers/*": ["src/containers/*"],
             "@constants/*": ["src/constants/*"],
